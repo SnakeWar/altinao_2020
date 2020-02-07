@@ -1,0 +1,118 @@
+#sidebar-nav{
+    background-color: #2a2a2a;
+    border-bottom: white solid 1px;
+
+}
+#sidebar-nav li a:hover, #sidebar-nav li a:link{
+    color: #2ab27b;
+    text-decoration: none;
+}
+.navbar-laravel .container ul li a:hover{
+    color: #2ab27b;
+    text-decoration: none;
+}
+.navbar-laravel .container ul li a:link, .wrapper ul li a:hover, .wrapper ul li a:link{
+    color: white;
+}
+#sidebar-nav li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar-laravel .container ul li a{
+    color: #1b1e21;
+    text-decoration: none;
+}
+a.dropdown-item:hover{
+    background: #1b1e21;
+}
+#sidebar-nav li{
+    padding: 10px;
+}
+.botaohover:hover{
+    /*background-color: hsla(10, 100%, 75%, 0.1);*/
+}
+.ali_centro{
+    text-align: center;
+}
+.ali_esquerda{
+    text-align: left;
+}
+.ali_direita{
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+    th, td{
+        font-size: 10px;
+    }
+}
+
+.branco thead tr th{
+    color: white;
+}
+.branco tbody tr td{
+     color: white;
+ }
+
+  .azul thead tr th{
+      color: #3b5998;
+  }
+.azul tbody tr td{
+    color: #3b5998;
+}
+.azul tr{
+    border-bottom: #3b5998 solid 2px;
+    border-top: #3b5998 solid 2px;
+}
+.azul-titulo{
+    color: #3b5998;
+}
+.branco tr{
+    border-bottom: white solid 2px;
+}
+.branco-titulo{
+    color: white;
+}
+section.cta .overlay{
+    background-color: #3b5998 !important;
+}
+.imagem{
+    width: 90%;
+    padding-left: 15%;
+}
+.caption h3, .caption p{
+    color: white;
+}
+.borda-branca{
+    background-color: white;
+    margin: 2px 2px 0 0;
+}
+.masthead{
+    background: url(http://172.17.192.161:8000/images/bg-pattern.png), linear-gradient(to left,#3b5998,#008200) !important;
+}
+
+.features{
+    background: url(http://172.17.192.161:8000/images/bg-pattern.png), linear-gradient(to left,#008200,#3b5998) !important;
+}
+.cta{
+    background: url(http://172.17.192.161:8000/images/treinador.png) !important;
+    background-size: cover !important;
+}
+.download{
+    background: linear-gradient(to left,#fdc539,#fdc539) !important;
+}
+.navbar-toggler-icon{
+    -webkit-filter: invert(100%);
+}
+/*-------*/
+
+/*
+.imagem1{
+    background-image: url(http://localhost/imagens/barsemlona.jpg);
+}
+.imagem2{
+    background: url(http://localhost/imagens/pecomchule.jpg);
+}
+.imagem3{
+    background: url(http://localhost/imagens/laranjada.jpg);
+}*/
